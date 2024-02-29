@@ -3,7 +3,7 @@ speaker:
 #   courtesy_title: null
   affiliation: KU Leuven, BIRA 
   country: Belgium
-#  photo: /assets/joel_falcou.jpg
+#  photo: /assets/bacchini.jpg
 #  bio: >
 #    Joel Falcou is an associate professor at the University of Paris-Sud and
 #    researcher at the Interdisciplinary Laboratory of Numerical Sciences (LISN)
@@ -34,11 +34,13 @@ speaker:
 #   courtesy_title: null
   affiliation: Institute of High-Performance Computing and Networking (ICAR), National Research Council (CNR) 
   country: Italy 
+#  photo: /assets/giordano.jpg
 
   name: Andrea Marini
 #   courtesy_title: null
   affiliation: Istituto di Struttura della Materia and Division of Ultrafast Processes in Materials (FLASHit) of the National Research Council (CNR - Italy) and European Theoretical Spectroscopy Facilities (ETSF) 
   country: Italy
+#  photo: /assets/marini.jpg
 
 # materials:
 #   - title: Slides
