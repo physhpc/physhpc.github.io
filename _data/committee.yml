@@ -1,98 +1,62 @@
 organizing:
-  - name: Patrick Diehl
-    affiliation: Center for Computation & Technology at Louisiana State University
-    country: USA
-  - name: Zahra Khatami
-    affiliation: NVIDIA
-    country: USA
-  - name: Steven R. Brandt
-    affiliation: Center for Computation & Technology at Louisiana State University
-    country: USA
-  - name: Parsa Amini
-    affiliation: Halpern-Wight Inc.
-    country: USA
+  - name: Donato D'Ambrosio
+    affiliation: Department of Mathematics and Computer Science, University of Calabria
+    country: Italy
+  - name: Alessio De Rango
+    affiliation: Department of Environmental Engineering, University of Calabria 
+    country: Italy
+  - name: Nicolino Lo Gullo
+    affiliation: Department of Physics, University of Calabria 
+    country: Italy
+  - name: Francesco Pucci
+    affiliation: Institute for Plasma Science and Technology (ISTP),  National Research Council (CNR) 
+    country: Italy
+  - name: William Spataro
+    affiliation: Department of Mathematics and Computer Science, University of Calabria 
+    country: Italy
 program:
-  - name: Thomas Heller
-    affiliation: Exasol
+  - name: Loris Belcastro
+    affiliation: Department of Informatics, Modeling, Electronics and Systems (DIMES), University of Calabria 
+    country: Italy
+  - name: Elisabetta Boella
+    affiliation: E4 Computer Engineering
+    country: Italy 
+  - name: Marisa Gil
+    affiliation: Universitat Politècnica de Catalunya
+    country: Spain
+  - name: Andrea Giordano
+    affiliation: Institute of High-Performance Computing and Networking (ICAR), National Research Council (CNR)
+    country: Italy
+  - name: Pierre Henri
+    affiliation: Laboratoire de Physique et Chimie de l’Environnement et de l’Espace, and Laboratoire Lagrange, Observatoire de la Côte d’Azur, Université Côte d’Azur, Centre national de la recherche scientifique (CNRS)
+    country: France
+  - name: Maria Elena Innocenti
+    affiliation: Ruhr University, Bochum
     country: Germany
-  - name: Hartmut Kaiser
-    affiliation: Louisiana State University
-    country: USA
-  - name: Dirk Pleiter
-    affiliation: KTH Royal Institute of Technology in Stockholm
-    country: Sweden
-  - name: Roman Iakymchuk
-    affiliation: Umea University
-    country: Sweden
-  - name: Erwin Laure
-    affiliation: Max Planck Computing & Data Facility
-    country: Germany
-  - name: Patricia Grubel
-    affiliation: Los Alamos National Laboratory
-    country: USA
-  - name: Vassilios Dimakopoulos
-    affiliation: University of Ioannina
-    country: Greece
-  - name: Metin H. Aktulga
-    affiliation: Michigan State University
-    country: USA
-  - name: Brad Richardson
-    affiliation: Sourcery Institute
-    country: USA
-  - name: Huda Ibeid
-    affiliation: Intel
-    country: USA
-  - name: J. "Ram" Ramanujam
-    affiliation: Louisiana State University
-    country: USA
-  - name: Thomas Fahringer
-    affiliation: University of Innsbruck
-    country: Austria
-  - name: Pedro Valero Lara
-    affiliation: Oak Ridge National Laboratory
-    country: USA
-  - name: Michael Wong
-    affiliation: Codeplay Software
-    country: USA
-  - name: Dirk Pflüger
-    affiliation: University of Stuttgart
-    country: Germany
-  - name: Peter Thoman
-    affiliation: University of Innsbruck
-    country: Austria
-  - name: Bryce Adelstein Lelbach
-    affiliation: Nvidia
-    country: USA
-  - name: Weile Wei
-    affiliation: Lawrence Berkeley National Laboratory
-    country: USA
-  - name: Brad Chamberlain
-    affiliation: HPE
-    country: USA
-  - name: Sumathi Lakshmiranganatha
-    affiliation: Los Alamos National Laboratory
-    country: USA
-  - name: Nikunj Gupta
-    affiliation: Amazon
-    country: USA
-  - name: Jan Ciesko
-    affiliation: Sandia National Laboratories
-    country: USA
-  - name: Tianyi Zhang
-    affiliation: Amazon Web Service
-    country: USA
-  - name: Markus Rampp
-    affiliation: Max Planck Computing & Data Facility
-    country: Germany
-  - name: Patrica Grubel
-    affiliation: Los Alamos National Laboratory
-    country: USA
-  - name: Joseph Schuchart
-    affiliation: University of Tennessee, Knoxville
-    country: USA
-  - name: Ben Bergen
-    affiliation: Los Alamos National Laboratory
-    country: USA
-  - name: Markus Rampp
-    affiliation: Max Planck Computing & Data Facility
-    country: Germany
+  - name: Fabrizio Marozzo
+    affiliation: Department of Informatics, Modeling, Electronics and Systems (DIMES), University of Calabria
+    country: Italy
+  - name: Xavier Martorell
+    affiliation: Barcelona Supercomputing Center and Universitat Politècnica de Catalunya
+    country: Spain
+  - name: Yaroslav Pavlyukh
+    affiliation: Wrocław University of Science and Technology
+    country: Poland
+  - name: Leonardo Primavera
+    affiliation: Department of Physics, University of Calabria
+    country: Italy
+  - name: Rocco Rongo
+    affiliation: Department of Mathematics and Computer Science, University of Calabria
+    country: Italy
+  - name: Domenico Talia
+    affiliation: Department of Informatics, Modeling, Electronics and Systems (DIMES), University of Calabria
+    country: Italy
+  - name: Andrea Trunfio
+    affiliation: University of Sassari
+    country: Italy
+  - name: Riku Tuovinen
+    affiliation: University of Jyäskylä
+    country: Finland
+  - name: Gladys Utrera
+    affiliation: Universitat Politècnica de Catalunya
+    country: Spain

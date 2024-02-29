@@ -3,25 +3,18 @@ layout: default
 ---
 
 ## Background
-Supercomputers are now beginning to break the exascale barrier, and tremendous amounts of work have been invested in identifying and overcoming the challenges leading up to this moment. These challenges include load-balancing, fast data transfers, and efficient resource utilization. Task-based models and runtime systems have shown that it is possible to address these challenges by providing additional mechanisms such as oversubscription, task/data locality, shared memory, and data dependence-driven execution.
-This workshop explores the advantages of task-based programming on modern and future HPC systems. It will gather developers, users, and proponents of these models and systems to share experience, discuss how they meet the challenges posed by Exascale system architectures, and explore opportunities for increased performance, robustness, and full-system utilization.
+Research in natural sciences like physics and chemistry is increasingly moving towards massive use of high-performance computing systems to numerically solve problems for which no analytical solutions are known. We are currently at an unprecedented favorable juncture in Europe due to the investments made through the Horizon Europe Programme, which has invested substantial resources in constructing high-performance computing infrastructure to achieve Exa-scale capabilities. In this scenario, it is crucial to design codes to exploit the overall set of available resources optimally, permitting them to scale to wider and finer domains in both space and time, thus enabling more insightful applications to natural sciences. Scientific codes sometimes suffer from the lack of state-of-the-art solutions proposed by computer science, like optimized data structures reducing memory space footprint, fast stencil algorithms, and conflict-free write procedures specifically developed for many-core accelerators like GPUs or load-balancing routines for both when and how to load balance for high-performance computing clusters. Nevertheless, such codes often embed original algorithmic solutions and data structures that could inspire the development of new algorithms and tools or improve existing ones in computer science. The encounter between natural science and computer science could represent an enriching opportunity for all disciplines involved. Aiming to feed this collaboration, the workshop is intended to be an interdisciplinary forum for comparison and discussion between natural science and computer science to establish a synergy between these disciplines and favour the advancement of knowledge in each of them. Authors are encouraged to submit original, unpublished research or critical reviews on algorithms, models and tools for parallel computing applied to scientific problems with emphasis on original solutions and open issues.
 
 ## Topics
-The workshop will focus on the following areas:
+Topics of interest include, but are not limited to:
 
-* Novel task-based runtime environments
-* Experiences of using task-based runtime environments for large applications
-* Experiences comparing task-based runtime environments
-* Experiences gathered from porting one large-scale parallel solution to another, e.g., MPI to Charm++, etc.
-* Profiling and performance monitoring of task-based environments
-* Benchmarks for task-based runtimes
-* Tools for debugging programs using task-based runtimes
-* Challenges to task-based runtimes in scaling to large clusters
-* Hardware challenges and solutions in using task-based environments
-
-
-## Previous events
-
-* [AMTE 2023](https://amte2023.stellar-group.org/) @ [Euro-Par 2023](https://2023.euro-par.org/)
-* [AMTE 2022](https://amte2022.stellar-group.org/) @ [Euro-Par 2022](https://2022.euro-par.org/)
-* [AMTE 2021](https://amte2021.stellar-group.org/) @ [Euro-Par 2021](https://2021.euro-par.org/)
+* Emerging and high-performance computing in complex systems modelling and simulation using FDM, PIC, Cellular Automata and other methods
+* High-performance technologies, such as MPI, OpenMP, CUDA, and Sycl, for scientific applications
+* Hardware approaches (e.g., FPGAs, Neuromorphic computing) of high-performance computing in modeling and simulation
+* Optimization algorithms related to parallel simulation of scientific applications, such as synchronization, load balancing, coarse grain optimization
+* Performance models and their integration into the design of efficient parallel algorithms for heterogeneous platforms
+* High-performance software libraries for scientific applications (Blas, ScaLAPACK, MAGMA, Plasma, GROMACS, Quantum Espresso, Yambo)
+* Simulation of quantum systems in HPC and quantum computing, quantum reservoir computing
+* Many-body systems
+* High-performance simulation of fluids and plasma
+* Computational chemistry and quantum chemistry
