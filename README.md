@@ -1,13 +1,13 @@
-# AMTE2023.github.io
+# fhyshpc.github.io
 
-## Making AMTE logo with ImageMagick
+## Making PHYSHPC logo with ImageMagick
 Font: [Overpass Black](https://fonts.google.com/specimen/Overpass)
 ```bash
 magick -background none \
     -density 574 \
     -fill '#377cb8' \
     -font 'Overpass-Black.ttf' \
-    label:'AMTE 2023' \
+    label:'PHYSHPC 2023' \
     -unsharp 0x.5 \
     -gravity southeast -splice 30x25 \
     -gravity northwest -splice 30x25 \
@@ -23,7 +23,7 @@ magick -background none \
     -unsharp 0x.5 \
     -gravity northwest \
     -splice 0x25 \
-    /Users/parsa/Repositories/stellargroup/AMTE2023.github.io/workshop_contact.png
+    /Users/parsa/Repositories/stellargroup/physhoc.github.io/workshop_contact.png
 ```
 
 ## Email obfuscation (Modified Alberti Cipher)
