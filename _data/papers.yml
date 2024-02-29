@@ -1,0 +1,6 @@
+#- title: Task-Level Checkpointing for Nested Fork-Join Programs using Work Stealing
+#    id: 17
+#    authors:
+#      - Lukas Reitz
+#      - Claudia Fohry
+#    abstract: "Recent Exascale supercomputers consist of millions of processing units, and this number is still growing. Therefore, hardware failures, such as permanent node failures, become increasingly apparent. They can be tolerated with techniques such as Checkpoint/Restart (C/R), which saves the whole application state transparently, and, in case of failure, restarts the application from the saved state; or application-level checkpointing, which saves only relevant data via explicit calls in the program. C/R has the advantage of requiring no additional programming expense, whereas application-level checkpointing is more efficient and allows to continue running the application on the intact resources (localized shrinking recovery).
