@@ -2,38 +2,20 @@
 layout: default
 ---
 
-{% assign talk = site.data.keynote %}
-{% assign speaker = talk.speaker %}
+# Keynote talks
 
-{% if talk %}
-# Keynote talk
 
+
+{% assign keynotes = site.data.keynote %}
+{% assign speakers = keynotes.speakers %}
+
+
+{% for s in keynotes.speakers %}
 ## Speaker
-
-{% if speaker.photo %}
-![{{ speaker.name }}]({{ speaker.photo }})
-{% endif %}
-
-### {{ speaker.courtesy_title }} {{ speaker.name }}, {{ speaker.affiliation }}, {{ speaker.country }}
-
-{{ speaker.bio }}
-
-{% if talk.title and talk.abstract %}
-### {{ talk.title }}
-
-{{ talk.abstract }}
-
-
-{% if talk.materials %}
-### Materials
-
-{% for material in talk.materials %}
-* [{{ material.title }}]({{ material.url }})
+### {{ s.speaker.courtesy_title }} {{ s.speaker.name }}, {{ s.speaker.affiliation }}, {{ s.speaker.country }} 
+![imgSpeaker]({{ s.speaker.photo }})
+{{ s.speaker.bio }}
+### {{ s.speaker.title }}
+{{ s.speaker.abstract }}
+---
 {% endfor %}
-{% endif %}
-
-{% endif %}
-
-{% else %}
-The keynote talk has not been announced yet.
-{% endif %}
