@@ -3,7 +3,8 @@ speaker:
 #   courtesy_title: null
   affiliation: KU Leuven, BIRA 
   country: Belgium
-  photo: /assets/bacchini.jpg
+  photo: /assets/test.jpg
+# photo: /assets/bacchini.jpg
 #  bio: >
 #    Joel Falcou is an associate professor at the University of Paris-Sud and
 #    researcher at the Interdisciplinary Laboratory of Numerical Sciences (LISN)
