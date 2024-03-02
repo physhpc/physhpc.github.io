@@ -26,7 +26,7 @@ Accepted full papers will appear in a special volume of the Euro-Par 2024 LNCS p
 
 ## Contact
 
-For questions or comments regarding the call for papers, please contact [Donato D'Ambrosio](malito:donato.dambrosio@unical.it).
+For questions or comments regarding the call for papers, please contact [Donato D'Ambrosio](mailto:donato.dambrosio@unical.it).
 
 <script type="text/javascript">
 var d = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@_-+.";
