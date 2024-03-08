@@ -2,37 +2,37 @@ speakers:
 
   - speaker:
       name: Fabio Bacchini
-    #   courtesy_title: null
+      courtesy_title: null
       affiliation: KU Leuven, BIRA 
       country: Belgium
-    # photo: /assets/bacchini.jpg
+      photo: /assets/bacchini.jpg
       bio: >
-        Speaker short bio coming soon
-      title: Talk title coming soon
+        Fabio Bacchini is Assistant Professor at the Centre for mathematical Plasma Astrophysics of KU Leuven (Belgium) since 2022. He obtained his PhD from KU Leuven in December 2018 with a thesis on Newtonian and relativistic particle methods for plasma simulations. Before the beginning of his tenure-track, he spent 3 years as a postdoc in Germany, Belgium, and the United States. His work has primarily focused on solar and high-energy astroplasma simulations, with an emphasis on the development and application of novel numerical methods for massively parallel computer codes.
+      title: null
       abstract: >
-        Abstract coming soon
+        Massively parallel computer codes are the paramount standard for simulations of astrophysical plasmas in modern scientific research. From the solar environment to the surroundings of supermassive black holes, simulations have helped shed light on many previously unknown processes concerning plasmas in the Universe. Given the very limited space offered by analytic calculations, continuing efforts devoted to the development of modern, reliable simulations tools are imperative. In this talk, I will review the main computing approaches employed in modern astroplasma research, and focus on the challenges and opportunities offered by the newest computing technologies on the market.
   
   - speaker:
       name: Andrea Giordano
-    #   courtesy_title: null
+      courtesy_title: null
       affiliation: Institute of High-Performance Computing and Networking (ICAR), National Research Council (CNR)
       country: Italy
-      photo: null
+      photo: null # /assets/giordano.jpg
       bio: >
         Speaker short bio coming soon
-      title: Talk title coming soon
+      title: null
       abstract: >
         Abstract coming soon
 
   - speaker:
       name: Andrea Marini
-    #   curtesy_title: null
+      curtesy_title: null
       affiliation: Istituto di Struttura della Materia and Division of Ultrafast Processes in Materials (FLASHit) of the National Research Council (CNR - Italy) and European Theoretical Spectroscopy Facilities (ETSF)
       country: Italy
-      photo: null
+      photo: /assets/marini.jpg
       bio: >
         Speaker short bio coming soon
-      title: Talk title coming soon
+      title: null
       abstract: >
         Abstract coming soon
     

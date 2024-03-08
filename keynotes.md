@@ -9,21 +9,22 @@ layout: default
 
 {% for s in speakers %}
 
-## Speaker
+#### {{ s.speaker.courtesy_title }} {{ s.speaker.name }}, {{ s.speaker.affiliation }}, {{ s.speaker.country }} 
 
 {% if s.speaker.photo %}
 ![{{ s.speaker.name }}]({{ s.speaker.photo }})
 {% endif %}
 
-### {{ s.speaker.courtesy_title }} {{ s.speaker.name }}, {{ s.speaker.affiliation }}, {{ s.speaker.country }} 
-{{ s.speaker.bio }}
+{% if s.speaker.bio %}
+**Bio**: {{ s.speaker.bio }}
+{% endif %}
 
-{% if s.speaker.title and s.speaker.abstract %}
+{% if s.speaker.title  %}
 ### {{ s.speaker.title }}
+{% endif %}
 
-{{ s.speaker.abstract }}
-
-
+{% if s.speaker.abstract %}
+**Abstract**: {{ s.speaker.abstract }}
 {% endif %}
 
 ---

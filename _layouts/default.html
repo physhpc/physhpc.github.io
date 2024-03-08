@@ -15,42 +15,46 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
+      <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
+
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+	<a href="{{ "/" | absolute_url }}"><img width="80%" src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 
         <p>
-            {{ site.acronym }}<br />
-            {{ site.workshop_date }}<br />
-        </p>
-        <blockquote>
-            <p>
-                Held in conjunction with <a href="https://2024.euro-par.org/">Euro-Par 2024</a><br />
-                {{site.conf_city}}
-            </p>
-        </blockquote>
+	<!--{{ site.acronym }}<br /> -->
+	<strong><h3>{{ site.title}}</h3></strong>
+        {{ site.workshop_date }}<br />
+	{{site.conf_city}}<br style="margin-bottom: 3px">
+
+	Held in conjunction with <a href="https://2024.euro-par.org/">Euro-Par 2024</a><br />
+	</p>
 
         <ul>
-          <li><strong><a href="{{ "/" | absolute_url }}committee">Committee</a></strong></li>
-          <li><strong><a href="{{ "/" | absolute_url }}call-for-papers">Call for papers</a></strong></li>
+          <li><strong><a href="{{ "/" | absolute_url }}submissions">Submissions</a></strong></li>
           {%- if site.data.papers -%}
           <li><strong><a href="{{ "/" | absolute_url }}papers">Accepted papers</a></strong></li>
           {%- endif -%}
-        </ul>
-        <ul>
           <li><strong><a href="{{ "/" | absolute_url }}program">Program</a></strong></li>
           {%- if site.data.keynote -%}
-          <li><strong><a href="{{ "/" | absolute_url }}keynote">Keynote</a></strong></li>
+          <li><strong><a href="{{ "/" | absolute_url }}keynotes">Keynotes</a></strong></li>
           {%- endif -%}
           {%- if site.data.invited_talk -%}
           <li><strong><a href="{{ "/" | absolute_url }}invited-talk">Invited Talk</a></strong></li>
           {%- endif -%}
+          <li><strong><a href="{{ "/" | absolute_url }}committee">Committee</a></strong></li>
         </ul>
+
+        <blockquote>
+            <p>
+	    <strong>Submission deadline</strong>: <br>{{site.submission_deadline}}<br style="margin-bottom: 3px">
+	    <strong>Acceptance Notification</strong>: <br>{{site.acceptance_notification}}<br style="margin-bottom: 3px">
+	    <strong>Revisions of accepted papers due</strong>: <br>{{site.revisions_of_accepted_papers_due}}<br style="margin-bottom: 3px">
+            </p>
+        </blockquote>
+
         <img src="{{ "/assets/springer_lncs.png" | relative_url }}" />
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        <p><small>LA-UR-24-21088</small></p>
       </header>
       <section>
 
