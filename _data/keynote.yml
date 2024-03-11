@@ -17,12 +17,12 @@ speakers:
       courtesy_title: null
       affiliation: Institute of High-Performance Computing and Networking (ICAR), National Research Council (CNR)
       country: Italy
-      photo: null # /assets/giordano.jpg
+      photo: /assets/giordano.jpg
       bio: >
-        Speaker short bio coming soon
-      title: null
+        Andrea Giordano is researcher at the Institute of High Performance Computing and Networking of the National Research Council of Italy (ICAR CNR) since 2011. He received the master’s degree in computer engineering and the Ph.D. degree in System Engineering and Computer Science from the University of Calabria, Rende, Italy, in 2001 and 2011, respectively. His current research interests include Parallel Computing, High-Performance Computing, Quantum Computing, Swarm Intelligence and Distributed Simulation.
+      title: A Survey on Cellular Automata Parallel Execution Techniques
       abstract: >
-        Abstract coming soon
+        Cellular Automata (CA) is a widely adopted paradigm for various physical systems, encompassing fluid dynamics, plasmas, spin systems, statistical mechanics, and natural phenomena such as lava flow, landslide, and prey-predator models. In each of these domains, CA modelling is able to capture the complexity of these systems by defining the interaction of their elementary units via relatively simple local rules. Due to an inherently parallel structure, CA executions can gain significant performance enhancements through parallel computing. In this talk, I will delve into the basic techniques for the parallel execution of CA on shared and distributed memory systems, as well as GPU architectures Moreover, I will explore optimization strategies, such as load balancing techniques, aimed at further amplifying the efficiency of parallel executions. In addition, I will introduce engineering practices geared towards facilitating transparent code execution. These practices aim to shield modellers from intricate computer science issues associated with execution contexts and optimization strategies, enabling them to focus solely on the modelling aspects of their work.
 
   - speaker:
       name: Andrea Marini
@@ -32,7 +32,7 @@ speakers:
       photo: /assets/marini.jpg
       bio: >
         Speaker short bio coming soon
-      title: null
+      title: 'How to perform ab-initio simulation of out-of-equilibrium phenomena using High-Performance Computing resources: the Yambo projrct'
       abstract: >
         Abstract coming soon
     

@@ -20,9 +20,8 @@ layout: default
 {% endif %}
 
 {% if s.speaker.title  %}
-### {{ s.speaker.title }}
+**Title**: ***{{ s.speaker.title }}***
 {% endif %}
-
 {% if s.speaker.abstract %}
 **Abstract**: {{ s.speaker.abstract }}
 {% endif %}
