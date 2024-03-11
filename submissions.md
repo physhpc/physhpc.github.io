@@ -25,7 +25,7 @@ Research in natural sciences like physics and chemistry is increasingly moving t
 ## Submissions guidelines
 Authors are encouraged to submit unpublished, **original research** or critical **reviews** on algorithms, models, and tools that are of interest to the workshop, emphasizing original solutions and open issues.
 
-- Submissions can be in the form of **full paper** (10-12 pages), **short paper** (5-9 pages), or **abstract** (100-500 words). 
+- Submissions can be in the form of **full paper** (10-12 pages), **short paper** (5-9 pages) or **abstract** (100-500 words). 
 - Papers must be formatted in the [Springer LNCS style](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) and submitted in PDF format using the [EasyChair link](https://easychair.org/conferences/?conf=europar24-ws-phd-poster-whpc).
 
 ## Reviews 
@@ -36,7 +36,7 @@ Manuscripts will be checked for originality by [iThenticate](https://www.ithenti
 For each accepted contribution, at least one author must register for the conference and present their work in person.
 
 - A **talk** is 20 minutes, including 5 minutes of questions.
-- Authors can express a preference for a **poster** presentation by sending a message to the contact below on this page with the subject "*PHYSHPC 2024 poster preference*" and details such as title of the contribution and the author list. Depending on the requests, a poster session will be scheduled.
+- Authors can express a preference for a **poster** presentation by sending a message to the contact below on this page with the subject "*PHYSHPC 2024 poster preference*" and details such as the title of the contribution and the author list. Depending on the requests, a poster session will be scheduled.
 
 ## Proceedings
 Accepted full papers will appear in a special volume of the Euro-Par 2024 LNCS proceedings.
