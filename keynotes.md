@@ -22,8 +22,14 @@ layout: default
 {% if s.speaker.title  %}
 **Title**: ***{{ s.speaker.title }}***
 {% endif %}
+
 {% if s.speaker.abstract %}
 **Abstract**: {{ s.speaker.abstract }}
+{% endif %}
+
+{% if s.speaker.references%}
+**References**: 
+{{ s.speaker.references}}
 {% endif %}
 
 ---

@@ -11,6 +11,7 @@ speakers:
       title: null
       abstract: >
         Massively parallel computer codes are the paramount standard for simulations of astrophysical plasmas in modern scientific research. From the solar environment to the surroundings of supermassive black holes, simulations have helped shed light on many previously unknown processes concerning plasmas in the Universe. Given the very limited space offered by analytic calculations, continuing efforts devoted to the development of modern, reliable simulations tools are imperative. In this talk, I will review the main computing approaches employed in modern astroplasma research, and focus on the challenges and opportunities offered by the newest computing technologies on the market.
+      references: null
   
   - speaker:
       name: Andrea Giordano
@@ -23,6 +24,7 @@ speakers:
       title: A Survey on Cellular Automata Parallel Execution Techniques
       abstract: >
         Cellular Automata (CA) is a widely adopted paradigm for various physical systems, encompassing fluid dynamics, plasmas, spin systems, statistical mechanics, and natural phenomena such as lava flow, landslide, and prey-predator models. In each of these domains, CA modelling is able to capture the complexity of these systems by defining the interaction of their elementary units via relatively simple local rules. Due to an inherently parallel structure, CA executions can gain significant performance enhancements through parallel computing. In this talk, I will delve into the basic techniques for the parallel execution of CA on shared and distributed memory systems, as well as GPU architectures Moreover, I will explore optimization strategies, such as load balancing techniques, aimed at further amplifying the efficiency of parallel executions. In addition, I will introduce engineering practices geared towards facilitating transparent code execution. These practices aim to shield modellers from intricate computer science issues associated with execution contexts and optimization strategies, enabling them to focus solely on the modelling aspects of their work.
+      references: null
 
   - speaker:
       name: Andrea Marini
@@ -30,11 +32,34 @@ speakers:
       affiliation: Istituto di Struttura della Materia and Division of Ultrafast Processes in Materials (FLASHit) of the National Research Council (CNR - Italy) and European Theoretical Spectroscopy Facilities (ETSF)
       country: Italy
       photo: /assets/marini.jpg
-      bio: >
-        Speaker short bio coming soon
-      title: 'How to perform ab-initio simulation of out-of-equilibrium phenomena using High-Performance Computing resources: the Yambo projrct'
-      abstract: >
-        Abstract coming soon
+      bio: |
+        A. Marini founded in 2009 and is currently the head coordinator of the *ab-initio* [Yambo project](https://www.yambo-code.eu/). Yambo is a worldwide known, open source code for steady-state and real-time excited state *ab-Initio* calculations. It is part of two European networks devoted to exascale computing ([MaX](https://www.max-centre.eu/)) and to the creation of a material science European infrastructure ([NFFA](https://nffa.eu/)). Yambo is also a member of the Partnership for Advanced Computing in Europe (PRACE) and it is installed on many High-Performance Centers around the world.
+
+        Starting from 2010 A. Marini has started working in the field of out–of–the–equilibrium phenomena from an *ab–initio* perspective. The goal is to devise a novel approach (*Ai*–NEGF) based on the merging of Non–Equilbrium Green’s Function theory (NEGF) with Density–Functional Theory (DFT). 
+        
+        A. Marini has taken part in several european and national projects founded by the Ikerbasque foundation, the Italian minister for reserach and the H2020 European program. At the moment, besides *MaX* and *NFFA*, he is also coordinator of a national project (PRIN) devoted to the physics of High–Harmonics in Pump&probe experiments.
+
+        A. Marini is presently at the head of the Division of Ultrafast Processes in Materials (FLASHit) of the CNR-ISM. FLASHit is part of the Laboratory of Materials Modeling of the Institute for Material science of the National Reserach Council in Italy. He is also part of the *National Centre for HPC, Big Data and Quantum Computing*, member of the International Advisory Panel of the *African School on Electronic Structure Methods and Applications* network and he is currently teaching Many–Body Theory at the *East Africa Institute for Foundamental Reserach* located in the University of Rwanda, Kigali.
+
+      title: Simulations of out–of–equilibrium phenomena using the Yambo project
+        
+      abstract: |
+        FLASH (Free Electron Laser in Hamburg) and Lumi (Large Unified Modern Infrastructure) may appear as the opposite sides of the moon. They are both key actors in the world of tools used by *material science* researchers but they couldn’t appear to be more further away.
+
+        Lumi is a petascale supercomputer located at the CSC data center in Kajaani, Finland. As of January 2023, the computer is the fastest supercomputer in Europe. Similarly FLASH is the world’s first Free Electronc Laser (FEL). It is part of the Desy Synchrotron and has provided extremely bright, coherent and ultra-short XUV pulses for a broad science programme conducted by scientists from all over the world since 2005.
+
+        In this talk I will discuss how the physics investigated in ultra–fast Pump & Probe experiments can connect Lumi and FLASH providing an unprecedent insight in the elemental processes occurring at the microscopic atomic scale on a ultra–short time–scale. I will review the novel Ab Initio Non Equilibrium Method (*Ai*–NEGF) [3] and discuss how HPC resources can help in investigating regimes of matter and of theory, almost impossible to access using paper and pencil or a standard, even if large, Beowulf cluster.
+
+        I will describe the actual implementation of Ai–NEGF in the Yambo [1;2] code discussing some recent numerical and methodological developments that have been implemented towards to exploitation of next generation HPC supercomputers. In particular, I will present the Yambo hybrid parallelization and I will also discuss the future plans of the project and its potential use as tool for science dissemination, also in third world countries.
+
+      references: |
+
+        [1] M. G. D. V. Andrea Marini, Conor Hogan. yambo: An ab initio tool for excited state calculations. *Computer Physics Communications*, 180:1392–1403, 2009.
+
+        [2] D. S. et al. Many-body perturbation theory calculations using the yambo code. *Journal of Physics: Condensed Matter*, 31:325902, 2019.
+
+        [3] A. Marini, E. Perfetto, and G. Stefanucci. Coherence and de-coherence in the time-resolved arpes of realistic materials: An ab-initio perspective. *Journal of Electron Spectroscopy and Related Phenomena*, 257:147189, 2022.
+
     
   # materials:
   #   - title: Slides
