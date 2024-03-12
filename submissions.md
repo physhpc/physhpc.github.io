@@ -39,7 +39,7 @@ For each accepted contribution, at least one author must register for the confer
 - Authors can express a preference for a **poster** presentation by sending a message to the contact below on this page with the subject "*PHYSHPC 2024 poster preference*" and details such as the title of the contribution and the author list. Depending on the requests, a poster session will be scheduled.
 
 ## Proceedings
-Accepted full papers will appear in a special volume of the Euro-Par 2024 LNCS proceedings.
+Accepted **full papers** will appear in a special volume of the Euro-Par 2024 LNCS proceedings.
 
 
 ## Contact
