@@ -8,7 +8,7 @@ speakers:
       photo: /assets/bacchini.jpg
       bio: >
         Fabio Bacchini is Assistant Professor at the Centre for mathematical Plasma Astrophysics of KU Leuven (Belgium) since 2022. He obtained his PhD from KU Leuven in December 2018 with a thesis on Newtonian and relativistic particle methods for plasma simulations. Before the beginning of his tenure-track, he spent 3 years as a postdoc in Germany, Belgium, and the United States. His work has primarily focused on solar and high-energy astroplasma simulations, with an emphasis on the development and application of novel numerical methods for massively parallel computer codes.
-      title: null
+      title: "Computational astroplasma simulations: state of the art and future directions"
       abstract: >
         Massively parallel computer codes are the paramount standard for simulations of astrophysical plasmas in modern scientific research. From the solar environment to the surroundings of supermassive black holes, simulations have helped shed light on many previously unknown processes concerning plasmas in the Universe. Given the very limited space offered by analytic calculations, continuing efforts devoted to the development of modern, reliable simulations tools are imperative. In this talk, I will review the main computing approaches employed in modern astroplasma research, and focus on the challenges and opportunities offered by the newest computing technologies on the market.
       references: null
