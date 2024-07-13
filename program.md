@@ -6,7 +6,7 @@ layout: default
 
 <!-- TBA -->
 
-**Date: August 27, 2024**
+**Date: August 27,  2024**
 
 Chair: Donato D'Ambrosio
 
