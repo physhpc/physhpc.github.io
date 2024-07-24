@@ -6,9 +6,9 @@ layout: default
 
 <!-- TBA -->
 
-**Date: August 27, 2024**
+**Date: August 27, 202 - Room: 1.A.02**
 
-Chair: Donato D'Ambrosio
+Chairs: Donato D'Ambrosio, Nicola Gullo
 
 
 - 10:00 - 10:30 Welcome coffee break
