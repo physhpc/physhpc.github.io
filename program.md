@@ -27,7 +27,7 @@ Chairs: Nicola Gullo, Donato D'Ambrosio
 > A Survey on Cellular Automata Parallel Execution Techniques
 - 16:10 - 16:30 V. Pérez Carrasco *et al.*, 
 > Runtime Instantiation of Kernels for Fast Fourier Transforms Using SYCL Specialization Constants
-- 16:30 - 16:50 M. Sanderl *et al.*,
+- 16:30 - 16:50 M. Sander *et al.*,
 > Towards Large-scale Top-Down Microarchitecture Analysis Using the Score-P Framework
 - 16:50 - 17:30 Andrea Marini - **Keynote talk**: 
 > Simulations of out–of–equilibrium phenomena using the Yambo project
