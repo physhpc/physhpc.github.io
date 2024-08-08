@@ -6,7 +6,7 @@ layout: default
 
 <!-- TBA -->
 
-**Date: August 27, 202 - Room: 1.A.02**
+**Date: August 27, 202 - Room: -1.A.02**
 
 Chair: Francesco Pucci
 
