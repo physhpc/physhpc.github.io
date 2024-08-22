@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Program and Abstracts
+# Program schedule (with abstracts)
 
 <!-- TBA -->
 
